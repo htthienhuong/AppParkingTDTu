@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="select">Select Major</string>
+    <string name="welcome_tdtu_parking">WELCOME TO</string>
+    <string name="slogan_tdtu">Discipline Courtesy Professionalism Creativity Service</string>
+    <string name="guest">Guest</string>
+    <string name="or">Or</string>
+    <string name="enter_email">Please enter your email</string>
+    <string name="names">Full Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="failed_to_register">Failed to register</string>
+    <string name="please_enter_your_birthday">Please Enter Your Birthday</string>
+    <string name="information">Information</string>
+    <string name="birthday">Day/Month/Year</string>
+    <string name="major">Major</string>
+    <string name="setting">Settings</string>
+    <string name="edit_personal_detail">Edit personal details</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="banking_account">Banking Account</string>
+    <string name="notifi">Notifications</string>
+    <string name="other">Others</string>
+    <string name="language">Language</string>
+    <string name="logout">LogOut</string>
+    <string name="update">Update</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="history">History</string>
+    <string name="login">Login with Google</string>
+</resources>

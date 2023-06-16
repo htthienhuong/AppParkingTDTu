@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/license"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mật độ"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:backgroundTint="#99f542"
+                />
+            <TextView
+                android:id="@+id/parking"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=": Vắng" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:backgroundTint="#a6a832"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=": Thưa" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:backgroundTint="#fcf038"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=": Khá Đông" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:backgroundTint="#fcaa38"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=": Đông" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/red"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=": Rất Đông" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

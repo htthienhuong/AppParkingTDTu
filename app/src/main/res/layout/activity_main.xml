@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome_to_"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="35dp"
+        android:layout_gravity="left"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="@string/welcome_tdtu_parking"
+
+        android:drawableEnd="@drawable/logo"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TDTU"
+        android:textColor="#0024ff"
+        android:textSize="55dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:layout_marginStart="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PARKING"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:shadowColor="#0024ff"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="10"
+        />
+
+    <TextView
+        android:id="@+id/managing_yo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="-1sp"
+        android:layout_marginEnd="10dp"
+        android:textSize="13dp"
+        android:text="@string/slogan_tdtu"
+        android:textStyle="normal" />
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="340dp"
+        android:layout_height="336dp"
+        app:iss_corner_radius="11"
+        app:iss_auto_cycle="true"
+        app:iss_delay="2"
+        app:iss_error_image="@drawable/ic_launcher_background"
+        app:iss_period="1000"
+        app:iss_placeholder="@drawable/ic_launcher_foreground" />
+
+<!--    <com.google.android.gms.common.SignInButton-->
+<!--        android:id="@+id/sign_in_button"-->
+<!--        android:layout_width="343dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:backgroundTint="@color/white"-->
+
+<!--        android:layout_marginTop="50dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="343dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        app:cornerRadius="10dp"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        app:icon="@drawable/googleg_standard_color_18"
+        app:iconPadding="10dp"
+        app:iconTint="#00100D0D"
+        app:iconTintMode="src_atop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_light"
+        android:text="@string/or"
+        android:textSize="15dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/guest"
+        android:textColor="@color/white"
+        android:layout_width="343dp"
+        android:layout_height="48dp"
+        android:background="@drawable/corner"
+        android:textAlignment="center"
+        android:backgroundTint="#0024ff"
+        android:text="@string/guest" />
+
+</LinearLayout>

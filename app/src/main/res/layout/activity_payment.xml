@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/rectangle_4"
+        />
+
+
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="190dp"
+        android:layout_height="255.34dp"
+        android:layout_marginRight="-100dp"
+        android:layout_marginLeft="282.93dp"
+        android:layout_marginTop="170.99dp"
+        android:background="@drawable/vector_1" />
+    <!-- Circular Icons -->
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="315dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/circle_1"
+        />
+    <View
+
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="325dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/circle_1"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rectangle_2"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/card_bank"
+        android:elevation="4dp" >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:text="Số dư tài khoản :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="top"
+            />
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="110dp"
+            android:layout_height="34dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="55dp"
+            android:text="10 000"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:gravity="top"
+            />
+
+
+        <TextView
+            android:layout_width="187dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="34dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="129dp"
+            android:text="7857 5928 0841 1354"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/valid_thru"
+            android:layout_width="86dp"
+            android:layout_height="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="263dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="141dp"
+            android:textColor="@color/white"
+            android:text="Valid Thru"
+            android:textSize="7sp"
+            android:gravity="top"
+            />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="266dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="151dp"
+            android:text="05/27"
+            android:textSize="7sp"
+            android:textColor="@color/white"
+            android:gravity="top"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="139dp"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="337dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:text="@string/history"
+        android:textSize="24sp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/payment_item" />
+
+</RelativeLayout>

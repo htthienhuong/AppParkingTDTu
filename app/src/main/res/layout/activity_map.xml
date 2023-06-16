@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewZoom"
+        android:layout_gravity="center">
+        <RelativeLayout
+            android:id="@+id/Container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_marginStart="20dp"
+                android:text="Nhà Thi Đấu"
+                android:textSize="10dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_marginTop="360dp"
+                android:backgroundTint="#7a786f">
+
+            </com.google.android.material.button.MaterialButton>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button2"
+                android:layout_width="62dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="495dp"
+                android:backgroundTint="#7a786f"
+                android:textSize="10dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:text="Tòa F">
+
+
+            </com.google.android.material.button.MaterialButton>
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+
+                android:src="@drawable/map_2">
+
+
+            </ImageView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+    <ImageView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="675dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/help"
+        />
+
+</RelativeLayout>

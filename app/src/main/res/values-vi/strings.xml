@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="select">Chọn ngành</string>
+    <string name="welcome_tdtu_parking">Chào mừng</string>
+    <string name="slogan_tdtu">Kỷ Luật Lễ Phép Chuyên Nghiệp Sáng Tạo Phụng Sự</string>
+    <string name="guest">Khách</string>
+    <string name="or">Hoặc</string>
+    <string name="enter_email">Hãy nhập email của bạn</string>
+    <string name="names">Họ tên</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="failed_to_register">Failed to register</string>
+    <string name="please_enter_your_birthday">Hãy nhập sinh nhật</string>
+    <string name="information">Thông Tin</string>
+    <string name="birthday">Ngày/Tháng/Năm</string>
+    <string name="major">Khoa</string>
+    <string name="setting">Cài đặt</string>
+    <string name="edit_personal_detail">Chỉnh sửa thông tin chi tiết</string>
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="banking_account">Tài khoản ngân hàng</string>
+    <string name="notifi">Thông báo</string>
+    <string name="other">Khác</string>
+    <string name="language">Ngôn Ngữ</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="update">Cập nhật</string>
+    <string name="edit_profile">Chỉnh sửa Profile</string>
+    <string name="history">Lịch Sử</string>
+    <string name="login">Đăng nhập Google</string>
+
+</resources>
